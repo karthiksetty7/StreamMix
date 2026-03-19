@@ -1,0 +1,24 @@
+.gaming-each-video-card {
+  width: 20vw;
+  height: 45vh;
+  display: flex;
+  flex-direction: column;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  border-radius: 7px;
+}
+
+.gaming-thumbnail-img {
+  height: 35vh;
+  width: 20vw;
+}
+
+.gaming-video-title {
+  font-size: 15px;
+  color: #64748b;
+}
+
+.gaming-video-views {
+  font-size: 15px;
+  color: #616e7c;
+}

@@ -1,0 +1,74 @@
+.nav-container,
+.nav-dark-container {
+  padding-top: 10px;
+  padding-left: 75px;
+  padding-right: 50px;
+  display: flex;
+  align-items: center;
+  height: 10vh;
+  width: 100vw;
+  justify-content: space-between;
+  background-color: #f9f9f9;
+}
+
+.warning-popup {
+  color: #f9f9f9;
+}
+
+.nav-dark-container {
+  background-color: #0f0f0f;
+}
+
+.right-nav {
+  display: flex;
+}
+
+.website-logo-imgs {
+  height: 3vh;
+  margin-right: 15px;
+}
+
+.profile-img {
+  height: 3vh;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.logout-btn,
+.logout-dark-btn {
+  background-color: transparent;
+  color: #3b82f6;
+  border: 2px solid #3b82f6;
+  width: 100px;
+  cursor: pointer;
+}
+
+.logout-dark-btn {
+  color: #f1f5f9;
+  border: 2px solid #f1f5f9;
+}
+
+.icon-btn {
+  background-color: transparent;
+  border-width: 0px;
+  cursor: pointer;
+}
+
+.logout-pop-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 20vh;
+}
+
+.confirm-btn,
+.cancel-btn {
+  background-color: #4f46e5;
+  color: #f1f5f9;
+  height: 30px;
+  width: 90px;
+  border-width: 0px;
+  border-radius: 5px;
+  margin-right: 20px;
+}

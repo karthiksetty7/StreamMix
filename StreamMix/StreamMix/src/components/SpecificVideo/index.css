@@ -1,0 +1,109 @@
+.specific-video-container {
+  padding-left: 60px;
+  padding-top: 20px;
+  font-family: 'Roboto';
+  background-color: #f9f9f9;
+}
+
+.react-player {
+  aspect-ratio: 16 / 9;
+}
+
+.dark-specific-video-container {
+  padding-left: 60px;
+  padding-top: 20px;
+  font-family: 'Roboto';
+  background-color: #0f0f0f;
+  width: 100vw;
+}
+
+.video-infos,
+.dark-video-infos {
+  font-size: 20px;
+}
+
+.dark-video-infos {
+  color: #f9f9f9;
+}
+
+.video-views-react-icons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.video-react-icons,
+.dark-video-react-icons {
+  margin-top: 15px;
+}
+
+.dark-video-react-icons {
+  width: 39vw;
+}
+
+.react-icon-sty {
+  margin-left: 10px;
+  color: #0f0f0f;
+  background-color: #f9f9f9;
+  border-width: 0px;
+}
+
+.dark-react-icon-sty {
+  margin-left: 0px;
+  color: #f9f9f9;
+  border-width: 0px;
+}
+
+#liked {
+  background-color: blue;
+  color: #f9f9f9;
+}
+
+#saved {
+  background-color: lightblue;
+}
+#removed {
+  background-color: #f9f9f9;
+}
+.line-sty {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+}
+
+.dark-line-sty {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+  margin-left: -1px;
+}
+
+.video-channel-description {
+  margin-top: 20px;
+  display: flex;
+}
+
+.channel-profile-imags {
+  height: 4vh;
+  margin-right: 10px;
+}
+
+.ch-name,
+.dark-ch-name {
+  font-size: 15px;
+}
+
+.dark-ch-name {
+  color: #f9f9f9;
+}
+
+.ch-subscribers-count {
+  font-size: 12px;
+  color: #94a3b8;
+}
+
+.ch-info {
+  color: #64748b;
+  font-size: 15px;
+  width: 800px;
+  line-height: 1.2;
+}

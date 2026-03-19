@@ -1,0 +1,43 @@
+.trending-list-container {
+  align-self: center;
+}
+
+.trending-container,
+.dark-trending-container {
+  padding-left: 50px;
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  overflow-y: auto;
+  width: 100vw;
+  height: calc(100vh - 70px);
+  overflow-x: hidden;
+  background-color: #f9f9f9;
+}
+
+.dark-trending-container {
+  background-color: #0f0f0f;
+}
+
+.fa-trending-con {
+  display: flex;
+}
+
+.fa-fire {
+  margin-top: 22px;
+  height: 30px;
+  width: 30px;
+  color: #ff0b37;
+}
+
+.trending-heading,
+.dark-trending-heading {
+  font-size: 25px;
+  margin-left: 7px;
+}
+
+.dark-trending-heading {
+  color: #f9f9f9;
+}
